@@ -1,0 +1,33 @@
+{
+	"enumMeta": {
+		"BASE_UNIT_OR_EACH": {
+			"codeName": "Base Unit or Each",
+			"definition": "The lowest level of the item hierarchy intended or labeled for individual resale."
+		},
+		"CASE": {
+			"codeName": "Case",
+			"definition": "A standard trade item shipping unit that contains a single or multiple GTINs. Includes an ½ or ¼ pallet and an ½ or ¼ box pallet."
+		},
+		"PALLET": {
+			"codeName": "Pallet",
+			"definition": "A unit load that contains a single or multiple GTINs Includes box pallet"
+		},
+		"TRANSPORT_LOAD": {
+			"codeName": "Transport Load",
+			"definition": "Trade item above the pallet level used for transporting trade items. For example truck load, container, rail car, ship, etc."
+		},
+		"PACK_OR_INNER_PACK": {
+			"codeName": "Pack or Inner Pack",
+			"definition": "A logistical unit between case and each. This may be a consumable innerpack (i.e. Carton of Cigarettes) or it may be simply a logistical pack (i.e. Dozes of toothbrushes)."
+		},
+		"DISPLAY_SHIPPER": {
+			"codeName": "Display Shipper",
+			"definition": "A display or shipper is a special case item that includes both consumer units and packaging materials to be assembled and used to display the product for sale. May contain cases or consumer units. It  may be the orderable or dispatchable unit and may be shipped on a pallet."
+		},
+		"MIXED_MODULE": {
+			"codeName": "Display Ready Pallet",
+			"definition": "Special pallet item sold as a single unit that is not intended to be broken down to sell the cases individually. It is intended to be displayed directly on the selling floor and shoppable for the consumer and may contain additional packaging materials used to further display the product. It may contain single or multiple GTINs and may be the orderable unit. "
+		}
+	},
+	"version": 2
+}
